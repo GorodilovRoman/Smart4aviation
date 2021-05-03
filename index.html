@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Input converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <form class="widget">
+      <div>
+        <div>
+          <label class="input">
+          <input class="input__field" type="text" id="sbase" placeholder=" " />
+          <span class="input__label">Source base</span>
+          </label>
+        </div>
+        <div>
+          <label class="input">
+          <input class="input__field" type="text" id="tbase" placeholder=" "/>
+          <span class="input__label">Target base</span>
+          </label>
+        </div>
+        <div>
+          <label class="input">
+          <input class="input__field" type="text" id="input" placeholder=" "/>
+          <span class="input__label">Number to be converted</span>
+          </label>
+        </div>
+        <div>
+          <button type="button" id="calculate">
+          <span id="text">Calculate</span>
+          </button>
+        </div>
+      </div>
+      <div style="opacity: 1;">
+        <div>Target number</div>
+        <div id="output-value">231</div>
+      </div>
+      </div>
+    </form>
+  </body>
+</html>
